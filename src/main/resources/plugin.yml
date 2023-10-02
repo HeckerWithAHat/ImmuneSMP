@@ -1,0 +1,12 @@
+name: ImmuneSMP
+version: '${project.version}'
+main: gmail.aryanj1010.immunesmp.ImmuneSMP
+api-version: '1.20'
+depend: [ProtocolLib]
+commands:
+  disableImmunityDisplay:
+    description: removes the immunity display
+    usage: /disableImmunityDisplay
+  enableImmunityDisplay:
+    description: adds the immunity display
+    usage: /enableImmunityDisplay
